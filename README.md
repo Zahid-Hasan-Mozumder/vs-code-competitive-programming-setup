@@ -112,14 +112,12 @@ using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
+    cout.tie(NULL);
     
-    int t;
-    cin >> t;
+    int t; cin >> t;
     while(t--) {
         // Your code here
     }
-    
-    return 0;
 }
 ```
 
@@ -130,29 +128,38 @@ import java.io.*;
 import java.util.*;
 
 public class sol {
+
     static FastReader in = new FastReader();
     static PrintWriter out = new PrintWriter(System.out);
-    
+
     public static void main(String[] args) {
         int t = in.nextInt();
         while (t-- > 0) {
-            solve();
+            /*
+            Your code here
+            
+            int n = in.nextInt();
+            int ans = 0;
+            for (int i = 0; i < n; i++) {
+                int cur = in.nextInt();
+                ans += cur;
+            }
+            out.println(ans);
+            */
         }
         out.close();
     }
-    
-    static void solve() {
-        // Your code here
-    }
-    
+
+    // FastReader class for fast i/o ----------------------------------------------
     static class FastReader {
+
         BufferedReader br;
         StringTokenizer st;
-        
+
         public FastReader() {
             br = new BufferedReader(new InputStreamReader(System.in));
         }
-        
+
         String next() {
             while (st == null || !st.hasMoreElements()) {
                 try {
@@ -163,27 +170,42 @@ public class sol {
             }
             return st.nextToken();
         }
-        
-        int nextInt() { return Integer.parseInt(next()); }
-        long nextLong() { return Long.parseLong(next()); }
-        double nextDouble() { return Double.parseDouble(next()); }
-        
+
+        int nextInt() {
+            return Integer.parseInt(next());
+        }
+
+        long nextLong() {
+            return Long.parseLong(next());
+        }
+
+        double nextDouble() {
+            return Double.parseDouble(next());
+        }
+
         String nextLine() {
             String str = "";
-            try { str = br.readLine(); } 
-            catch (IOException e) { e.printStackTrace(); }
+            try {
+                str = br.readLine();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             return str;
         }
-        
+
         int[] nextIntArray(int n) {
             int[] arr = new int[n];
-            for (int i = 0; i < n; i++) arr[i] = nextInt();
+            for (int i = 0; i < n; i++) {
+                arr[i] = nextInt();
+            }
             return arr;
         }
-        
+
         long[] nextLongArray(int n) {
             long[] arr = new long[n];
-            for (int i = 0; i < n; i++) arr[i] = nextLong();
+            for (int i = 0; i < n; i++) {
+                arr[i] = nextLong();
+            }
             return arr;
         }
     }
@@ -208,3 +230,4 @@ public class sol {
 ---
 
 **Happy Coding! 🚀**
+
