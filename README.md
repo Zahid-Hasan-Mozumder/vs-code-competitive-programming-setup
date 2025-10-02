@@ -227,5 +227,24 @@ public class sol {
 - Ensure `input.txt` exists
 - Close `output.txt` if open
 
-## 📃 References
-- You can watch <https://example.com](https://www.youtube.com/watch?v=h3uDCJ5mvgw> for better understanding.
+## 🎥 Video Tutorial
+
+- You can watch [this video](https://www.youtube.com/watch?v=h3uDCJ5mvgw) for better understanding.
+
+## 🤝 Contributing
+
+- Contributions are welcome! Please check out the [Contributing Guide](CONTRIBUTING.md) to get started.
+
+## ⭐ Show Your Support
+
+- If this setup helped you, please consider giving it a star! ⭐
+- It helps others discover this project and motivates me to maintain it.
+
+## 📄 License
+
+- This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📧 Contact
+
+- Have questions or suggestions? Feel free to [open an issue](../../issues)!
+
