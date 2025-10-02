@@ -229,9 +229,3 @@ public class sol {
 
 ## 📃 References
 - You can watch <https://example.com](https://www.youtube.com/watch?v=h3uDCJ5mvgw> for better understanding.
-
----
-
-**Happy Coding! 🚀**
-
-
